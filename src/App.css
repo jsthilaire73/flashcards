@@ -1,0 +1,76 @@
+/* Page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/* App container */
+.App {
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  color: white;
+}
+
+/* Flashcard */
+.flashcard {
+  width: 360px;
+  height: 220px;
+  margin: 40px auto;
+
+ background:
+  repeating-linear-gradient(
+    0deg,
+    #f8f9fa,
+    #f8f9fa 2px,
+    #f1f3f5 2px,
+    #f1f3f5 4px
+  );
+  
+  color: #222;
+
+  border: 3px solid #333;
+  border-radius: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 25px;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+
+  box-shadow: 0 12px 25px rgba(0,0,0,0.35);
+
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect */
+.flashcard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 35px rgba(0,0,0,0.45);
+}
+
+/* Button */
+button {
+  padding: 12px 26px;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: none;
+
+  background-color: #4a90e2;
+  color: white;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #357abd;
+}
